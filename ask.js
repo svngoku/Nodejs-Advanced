@@ -24,7 +24,7 @@ process.stdin.on('data', function(data) {
 
 process.on('exit', function() {
   process.stdin.write('\n \n');
-  process.stdout.write(`Go ${answers[1]} ${answers[1]} you can finish writing ${answers[2]}`);
+  process.stdout.write(`Va ${answers[1]} ${answers[0]} tu finiras l ecriture du script en  ${answers[2]} plus tard`);
   process.stdin.write('\n \n');
 
 })
