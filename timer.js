@@ -1,6 +1,6 @@
 var waitTime = 3000
 var currentTime = 0
-var waitInterval = 500
+var waitInterval = 10
 var percentWaited = 0
 
 function writeWaintingPercent(p) {
