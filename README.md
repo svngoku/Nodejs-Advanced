@@ -1,7 +1,7 @@
   ![alt text](https://foundation.nodejs.org/wp-content/uploads/sites/50/2017/09/NodeJS_Foundation_Pantone.png)
 # Nodejs Advanced
-  Cours avancé de nodejs 
- 
+  Ce cours à été mis en place par ma personne suite aux cours concacré à nodejs suivi sur [Lynda.com](https://lynda.com) .
+  Vous y retrouverez des morceaux de code compris dans des fichiers portant pour chacun d'eux le nom ou titre du module utiliser .
 ## Resume
   EcmaScript 6 
 ## Next
