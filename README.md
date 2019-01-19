@@ -1,6 +1,6 @@
   ![alt text](https://foundation.nodejs.org/wp-content/uploads/sites/50/2017/09/NodeJS_Foundation_Pantone.png)
 # Nodejs Advanced
-  Ce cours à été mis en place par ma personne suite aux cours concacré à nodejs suivi sur [Lynda.com](https://lynda.com) .
+  Ce cours est concacré à nodejs  .
   Vous y retrouverez des morceaux de code compris dans des fichiers portant pour chacun d'eux le nom ou titre du module utiliser .
 ## Standard
   EcmaScript 6 
