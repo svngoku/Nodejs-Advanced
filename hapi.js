@@ -10,5 +10,5 @@ Server.start(error => {
       throw error;
     }
     console.log('listen at ${Server.info.uri}');    
-  });
+});
 
