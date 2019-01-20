@@ -1,6 +1,5 @@
 // use a Process.argv 
 
-
 function grab(flag) 
 {
   var index = process.argv.indexOf(flag);
