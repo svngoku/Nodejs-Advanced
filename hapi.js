@@ -8,7 +8,7 @@ const server = Hapi.server({
   "routes" : { "cors" : true }
 });
 
-
+// initialise server asynchronously
 const init = async() => {
    await server.start();
    console.log(`Server running at : ${server.info.uri}`);
