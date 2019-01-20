@@ -1,14 +1,17 @@
-const api = require('hapi');
-const Server = new Hapi.Server();
+// require Hapi
+const Hapi = require('hapi');
 
-Server.connection({ 
+// server 
+const server = Hapi.server({ 
   "host" : "localhost", 
-  "port" : 3000 , 
-  "routes" : { "cors" : true });
-Server.start(error => {
-    if(error) {
-      throw error;
-    }
-    console.log('listen at ${Server.info.uri}');    
+  "port" : 5000 , 
+  "routes" : { "cors" : true }
 });
 
+
+const init = async() => {
+   await server.start();
+   console.log(`Server running at : ${server.info.uri}`);
+};
+
+init();
