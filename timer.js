@@ -1,7 +1,7 @@
-let waitTime = 3000
-let currentTime = 0
-let waitInterval = 10 // 10 milliseconds 
-let percentWaited = 0
+	const waitTime = 3000
+	let currentTime = 0
+	let waitInterval = 10 // 10 milliseconds 
+	let percentWaited = 0
 
 	function writeWaintingPercent(p) {
 	  process.stdout.clearLine();
