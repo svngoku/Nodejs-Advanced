@@ -1,8 +1,8 @@
-let path = require('path');
+const path = require('path');
 /* util module : donne accès à certaines informations utilitaire */
-let util = require('util')
-/* v8 module : donne accès à certaines information conernant la memoire */
-let v8 = require('v8');
+const util = require('util')
+/* v8 module : donne accès à certaines informations conernant la memoire */
+const v8 = require('v8');
 
 
 util.log(path.basename(__filename));
