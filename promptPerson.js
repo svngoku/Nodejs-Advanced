@@ -1,7 +1,7 @@
-var readline = require('readline');
-var rl = readline.createInterface(process.stdin, process.stdout);
+const readline = require('readline');
+const rl = readline.createInterface(process.stdin, process.stdout);
 
-var realPerson = {
+let realPerson = {
 	name: '',
 	sayings: []
 };
