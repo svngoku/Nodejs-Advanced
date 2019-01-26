@@ -10,7 +10,7 @@ let percentWaited = 0
 	}
 
 
-	var interval = setInterval(function() {
+	let interval = setInterval(function() {
 	  currentTime += waitInterval;
 	  percentWaited = Math.floor((currentTime/waitTime) * 100);
 	  writeWaintingPercent(percentWaited);
