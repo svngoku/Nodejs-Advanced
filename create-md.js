@@ -1,5 +1,5 @@
-var fs = require('fs');
-var md  = `
+const fs = require('fs');
+let md  = `
 	Simple Titre Markdown 
 	=====================
 
