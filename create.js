@@ -1,3 +1,5 @@
+// create a markedown file
+
 var fs = require('fs');
 var md  = `
 	Simple Titre Markdown 
@@ -13,7 +15,8 @@ var md  = `
 
 `;
 
-
 fs.writeFile("sample.md", md.trim() , function (err) {
 	console.log('Fichier créer ! ');
 })
+
+
