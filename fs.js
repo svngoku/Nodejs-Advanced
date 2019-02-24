@@ -1,12 +1,12 @@
 /* read a text files inside a Directory */
 
-var fs = require("fs");
-var path = require('path');
+const fs = require("fs");
+const path = require('path');
 
 fs.readdir('./lib', function(err, files) {
 	files.forEach(function(fileName) {
-		var file = path.join(__dirname , "lib", fileName);
-		var stats = fs.statSync(file);
+		let file = path.join(__dirname , "lib", fileName);
+		let stats = fs.statSync(file);
 		if (stats.isFile() && fileName !== "DS.Store")  {
 			fs.readFile(file, "UTF-8", function(err, contents) {
 				console.log(contents)

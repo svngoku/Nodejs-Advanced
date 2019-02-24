@@ -1,10 +1,10 @@
-var question = [
+let question = [
   "Quel est votre prénom ? ",
   "Quels sont vos hobbies ? ",
   "Quel est ton langage de programmation favoris ? "
 ];
 
-var answers = [];
+let answers = [];
 
 // function for ask questions 
 function ask(i) {

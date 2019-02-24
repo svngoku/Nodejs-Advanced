@@ -1,6 +1,7 @@
 var fs = require('fs');
 
-// readdirSync show all inside a folder 
+
+/* readdirSync show all inside a folder */
 fs.readdir('./lib', function(err, files) {
 	if (err) {
 		throw err;

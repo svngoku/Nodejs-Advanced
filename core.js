@@ -1,13 +1,13 @@
-var path = require('path');
+const path = require('path');
 /* util module : donne accès à certaines informations utilitaire */
-var util = require('util')
-/* v8 module : donne accès à certaines information conernant la memoire */
-var v8 = require('v8');
+const util = require('util')
+/* v8 module : donne accès à certaines informations conernant la memoire */
+const v8 = require('v8');
 
 
 util.log(path.basename(__filename));
 
-var dirUp = path.join(__dirname, 'www', 'files', 'uploads');
+let dirUp = path.join(__dirname, 'www', 'files', 'uploads');
 
 util.log(dirUp);
 
