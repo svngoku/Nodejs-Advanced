@@ -1,0 +1,26 @@
+{
+  "name": "avance",
+  "version": "1.0.0",
+  "description": "![alt text](https://foundation.nodejs.org/wp-content/uploads/sites/50/2017/09/NodeJS_Foundation_Pantone.png) # Nodejs Advanced   Ce cours est concacré à nodejs  .   Vous y retrouverez des morceaux de code compris dans des fichiers portant pour chacun d'eux le nom ou titre du module utiliser . ## Standard   EcmaScript 6  ## Next   Nodejs Documentation https://nodejs.org/api/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svngoku/Nodejs-Advanced.git"
+  },
+  "author": "Svngoku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Svngoku/Nodejs-Advanced/issues"
+  },
+  "homepage": "https://github.com/Svngoku/Nodejs-Advanced#readme",
+  "dependencies": {
+    "mori": "^0.3.2",
+    "mysql": "^2.16.0"
+  }
+}
