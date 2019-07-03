@@ -1,3 +1,5 @@
+'use strict';
+
 let question = [
   "Quel est votre prénom ? ",
   "Quels sont vos hobbies ? ",

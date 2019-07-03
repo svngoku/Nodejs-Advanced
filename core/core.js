@@ -1,3 +1,5 @@
+'use strict';
+
 const path = require('path');
 /* util module : donne accès à certaines informations utilitaire */
 const util = require('util')

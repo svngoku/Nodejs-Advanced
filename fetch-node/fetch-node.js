@@ -1,3 +1,5 @@
+'use strict';
+
 const fetch = require('node-fetch');
 
 const url = 'http://localhost:3000/api/v1/user';

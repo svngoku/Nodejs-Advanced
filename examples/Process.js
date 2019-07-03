@@ -1,3 +1,5 @@
+'use strict';
+
 // use a Process.argv 
 
 function grab(flag) 

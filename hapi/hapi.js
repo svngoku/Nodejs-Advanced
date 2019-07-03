@@ -1,3 +1,5 @@
+'use strict';
+
 // require Hapi
 const Hapi = require('hapi');
 

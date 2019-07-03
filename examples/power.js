@@ -1,3 +1,5 @@
+'use strict';
+
 /*
  * en : A command line application for generating powers of two
  * from 2^0 through 2^32.
