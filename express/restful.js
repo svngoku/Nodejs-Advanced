@@ -3,28 +3,26 @@ const app = express();
 const fs = require("fs");
 
 
-let user = {
-   "user" : {
-      "name" : "Svngoku",
-      "password" : "pass1234word",
-      "profession" : "teacher",
-      "id": 1
-   }
-}
+app.get('/', function(req, res) {
+  res.sendStatus(200)
+});
 
-app.get('/addUser', function (req, res) {
-
-   fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
-       data = JSON.parse( data );
-       data["user"] = user["user"];
-       console.log( data );
-       res.end( JSON.stringify(data));
+// route to  get the different user
+app.get('/users', function (req, res) {
+  // res.writeHead(200, {"Content-Type": "text/json; charset=utf-8"})
+   fs.readFile( __dirname + "/" + "users.json", 'utf-8', function (err, data) {
+       if(err) {
+         res.json(err)
+         console.log(err);
+       } else {
+         data = JSON.parse(data);
+         res.end( JSON.stringify(data));
+       }
    });
 })
 
-let server = app.listen(8081, function () {
-  let host = server.address().address
-  let port = server.address().port
-  console.log("Running on http://%s:%s", host, port)
-
+// Server
+const server = app.listen(8081, function () {
+  const port = server.address().port;
+  console.log(`Running on http://localhost:${port}`)
 });
