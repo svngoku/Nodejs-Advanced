@@ -1,5 +1,4 @@
 'use strict';
-
 // require Hapi
 const Hapi = require('hapi');
 
@@ -10,7 +9,15 @@ const server = Hapi.server({
   "routes" : { "cors" : true }
 });
 
-// initialise server asynchronously
+server.route({
+  method: 'GET',
+  path: '/',
+  handler: (request, h) => {
+    return 'Salut depuis Hapi 🎧';
+  }
+});
+
+// initialise le server asynchronously
 const init = async() => {
    await server.start();
    console.log(`Server running at : ${server.info.uri}`);
